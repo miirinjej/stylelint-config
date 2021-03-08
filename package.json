@@ -22,7 +22,7 @@
   "homepage": "https://github.com/miirinjej/stylelint-config#readme",
   "dependencies": {
     "stylelint-config-recess-order": "^2.3.0",
-    "stylelint-scss": "^3.18.0"
+    "stylelint-scss": "^3.19.0"
   },
   "peerDependencies": {
     "stylelint": "^13.12.0"
