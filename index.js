@@ -202,7 +202,12 @@ module.exports = {
     'declaration-block-semicolon-space-before': 'never',
     'declaration-block-trailing-semicolon': 'always',
     'block-closing-brace-empty-line-before': 'never',
-    'block-closing-brace-newline-after': 'always',
+    'block-closing-brace-newline-after': [
+      'always',
+      {
+        ignoreAtRules: ['if', 'else'],
+      },
+    ],
     'block-closing-brace-newline-before': 'always-multi-line',
     'block-closing-brace-space-after': null,
     'block-closing-brace-space-before': 'always-single-line',
